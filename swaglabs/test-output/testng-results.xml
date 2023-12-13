@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="16" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-11T19:29:02 IST" name="Swag Labs V1" finished-at="2023-12-11T19:36:32 IST" duration-ms="449895">
+    <groups>
+    </groups>
+    <test started-at="2023-12-11T19:29:02 IST" name="All Test" finished-at="2023-12-11T19:36:32 IST" duration-ms="449895">
+      <class name="com.swaglabs.testcases.DetailsPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.DetailsPageTest@1ce24091]" started-at="2023-12-11T19:32:13 IST" name="setup" finished-at="2023-12-11T19:32:15 IST" duration-ms="1772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addCartTestDetailsPage()[pri:1, instance:com.swaglabs.testcases.DetailsPageTest@1ce24091]" started-at="2023-12-11T19:32:15 IST" name="addCartTestDetailsPage" finished-at="2023-12-11T19:32:56 IST" duration-ms="41380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCartTestDetailsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.DetailsPageTest@1ce24091]" started-at="2023-12-11T19:32:56 IST" name="tearDown" finished-at="2023-12-11T19:32:56 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglabs.testcases.DetailsPageTest -->
+      <class name="com.swaglabs.testcases.CheckoutPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:32:56 IST" name="setup" finished-at="2023-12-11T19:32:58 IST" duration-ms="1672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkOutInfoTest()[pri:1, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:32:58 IST" name="checkOutInfoTest" finished-at="2023-12-11T19:33:35 IST" duration-ms="37108" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.swaglabs.testcases.CheckoutPageTest.checkOutInfoTest(CheckoutPageTest.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutInfoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:33:35 IST" name="tearDown" finished-at="2023-12-11T19:33:35 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:33:35 IST" name="setup" finished-at="2023-12-11T19:33:37 IST" duration-ms="1907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="cancelcheckOutInfoTest()[pri:2, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:33:37 IST" name="cancelcheckOutInfoTest" finished-at="2023-12-11T19:34:08 IST" duration-ms="30693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelcheckOutInfoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:34:08 IST" name="tearDown" finished-at="2023-12-11T19:34:08 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:34:08 IST" name="setup" finished-at="2023-12-11T19:34:10 IST" duration-ms="1946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="finishCheckOutTest()[pri:3, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:34:10 IST" name="finishCheckOutTest" finished-at="2023-12-11T19:34:54 IST" duration-ms="44103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishCheckOutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:34:54 IST" name="tearDown" finished-at="2023-12-11T19:34:55 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:34:55 IST" name="setup" finished-at="2023-12-11T19:34:56 IST" duration-ms="1930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="cancelCheckOutTest()[pri:4, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:34:56 IST" name="cancelCheckOutTest" finished-at="2023-12-11T19:35:40 IST" duration-ms="43605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelCheckOutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:35:40 IST" name="tearDown" finished-at="2023-12-11T19:35:40 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:35:40 IST" name="setup" finished-at="2023-12-11T19:35:42 IST" duration-ms="1880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest()[pri:5, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:35:42 IST" name="endToEndTest" finished-at="2023-12-11T19:36:31 IST" duration-ms="49053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:36:31 IST" name="tearDown" finished-at="2023-12-11T19:36:32 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ddtCheckOutInfoTest(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.swaglabs.testcases.CheckoutPageTest@5dda768f]" started-at="2023-12-11T19:36:32 IST" name="ddtCheckOutInfoTest" data-provider="checkoutinfoddt" finished-at="2023-12-11T19:36:32 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.io.FileNotFoundException: C:\eclipse workspace\swaglabs\src\test\resources\Testdata\DDTCheckout.xlsx (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse workspace\swaglabs\src\test\resources\Testdata\DDTCheckout.xlsx (The system cannot find the path specified)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.FileNotFoundException: C:\eclipse workspace\swaglabs\src\test\resources\Testdata\DDTCheckout.xlsx (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at com.swaglabs.pageobjects.CheckoutPage.readExcelData(CheckoutPage.java:138)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ddtCheckOutInfoTest -->
+      </class> <!-- com.swaglabs.testcases.CheckoutPageTest -->
+      <class name="com.swaglabs.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:29:15 IST" name="setup" finished-at="2023-12-11T19:29:17 IST" duration-ms="1783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="countProductTest()[pri:1, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:29:17 IST" name="countProductTest" finished-at="2023-12-11T19:29:27 IST" duration-ms="9710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countProductTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:29:27 IST" name="tearDown" finished-at="2023-12-11T19:29:27 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:29:27 IST" name="setup" finished-at="2023-12-11T19:29:29 IST" duration-ms="2314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productTitleTest()[pri:2, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:29:29 IST" name="productTitleTest" finished-at="2023-12-11T19:30:04 IST" duration-ms="35010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:04 IST" name="tearDown" finished-at="2023-12-11T19:30:04 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:04 IST" name="setup" finished-at="2023-12-11T19:30:06 IST" duration-ms="1869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="cartLogoVisibilityTest()[pri:3, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:06 IST" name="cartLogoVisibilityTest" finished-at="2023-12-11T19:30:15 IST" duration-ms="8516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartLogoVisibilityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:15 IST" name="tearDown" finished-at="2023-12-11T19:30:15 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:15 IST" name="setup" finished-at="2023-12-11T19:30:17 IST" duration-ms="1726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickCartLogoTest()[pri:4, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:17 IST" name="clickCartLogoTest" finished-at="2023-12-11T19:30:30 IST" duration-ms="12921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCartLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:30 IST" name="tearDown" finished-at="2023-12-11T19:30:30 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:30 IST" name="setup" finished-at="2023-12-11T19:30:32 IST" duration-ms="1859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getCartTextTest()[pri:5, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:32 IST" name="getCartTextTest" finished-at="2023-12-11T19:30:53 IST" duration-ms="21599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCartTextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:53 IST" name="tearDown" finished-at="2023-12-11T19:30:54 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:54 IST" name="setup" finished-at="2023-12-11T19:30:56 IST" duration-ms="1940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="menuAllItemsBtnTest()[pri:6, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:30:56 IST" name="menuAllItemsBtnTest" finished-at="2023-12-11T19:31:09 IST" duration-ms="13073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuAllItemsBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:31:09 IST" name="tearDown" finished-at="2023-12-11T19:31:09 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:31:09 IST" name="setup" finished-at="2023-12-11T19:31:11 IST" duration-ms="1726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="menuAboutBtnTest()[pri:7, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:31:11 IST" name="menuAboutBtnTest" finished-at="2023-12-11T19:31:27 IST" duration-ms="16144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuAboutBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:31:27 IST" name="tearDown" finished-at="2023-12-11T19:31:28 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:31:28 IST" name="setup" finished-at="2023-12-11T19:31:29 IST" duration-ms="1752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="menuLogoutBtnTest()[pri:8, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:31:29 IST" name="menuLogoutBtnTest" finished-at="2023-12-11T19:31:43 IST" duration-ms="13687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuLogoutBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.HomePageTest@55fe41ea]" started-at="2023-12-11T19:31:43 IST" name="tearDown" finished-at="2023-12-11T19:31:43 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglabs.testcases.HomePageTest -->
+      <class name="com.swaglabs.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5b12b668]" started-at="2023-12-11T19:29:02 IST" name="setup" finished-at="2023-12-11T19:29:07 IST" duration-ms="4434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:com.swaglabs.testcases.LoginPageTest@5b12b668]" started-at="2023-12-11T19:29:07 IST" name="loginTest" finished-at="2023-12-11T19:29:15 IST" duration-ms="8116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5b12b668]" started-at="2023-12-11T19:29:15 IST" name="tearDown" finished-at="2023-12-11T19:29:15 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:2, instance:com.swaglabs.testcases.LoginPageTest@5b12b668]" started-at="2023-12-11T19:29:15 IST" name="loginDDT" data-provider="loginData" finished-at="2023-12-11T19:29:15 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.io.FileNotFoundException: C:\eclipse workspace\swaglabs\src\test\resources\Testdata\Swag Labs Login.xlsx (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse workspace\swaglabs\src\test\resources\Testdata\Swag Labs Login.xlsx (The system cannot find the path specified)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.FileNotFoundException: C:\eclipse workspace\swaglabs\src\test\resources\Testdata\Swag Labs Login.xlsx (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at com.swaglabs.pageobjects.LoginPage.readExcelData(LoginPage.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+      </class> <!-- com.swaglabs.testcases.LoginPageTest -->
+      <class name="com.swaglabs.testcases.AddToCartPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@fbd1f6]" started-at="2023-12-11T19:31:43 IST" name="setup" finished-at="2023-12-11T19:31:45 IST" duration-ms="1721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickContinueShoppingBtnTest()[pri:1, instance:com.swaglabs.testcases.AddToCartPageTest@fbd1f6]" started-at="2023-12-11T19:31:45 IST" name="clickContinueShoppingBtnTest" finished-at="2023-12-11T19:31:57 IST" duration-ms="12113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinueShoppingBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@fbd1f6]" started-at="2023-12-11T19:31:57 IST" name="tearDown" finished-at="2023-12-11T19:31:58 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@fbd1f6]" started-at="2023-12-11T19:31:58 IST" name="setup" finished-at="2023-12-11T19:32:00 IST" duration-ms="1905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickCheckoutBtnTest()[pri:2, instance:com.swaglabs.testcases.AddToCartPageTest@fbd1f6]" started-at="2023-12-11T19:32:00 IST" name="clickCheckoutBtnTest" finished-at="2023-12-11T19:32:13 IST" duration-ms="13020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCheckoutBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@fbd1f6]" started-at="2023-12-11T19:32:13 IST" name="tearDown" finished-at="2023-12-11T19:32:13 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglabs.testcases.AddToCartPageTest -->
+    </test> <!-- All Test -->
+  </suite> <!-- Swag Labs V1 -->
+</testng-results>
